@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chirag Sharma - Web Developer, Programmer, ML Enthusiast</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <!-- <label>Rahul</label> -->
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/intro.html">Intro</a></li>
+                    <li><a href="/service.html">Service</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="menu.png" alt="" width="23px">
+                <img class="cross" src="close.png" alt="" width="20px">
+            </div>
+            <div class="contactForm">
+                <h1>Contact me for work/general inquiries.</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="clientName" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientEmail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientEnquiry" class="form-label">Enquiry</label>
+                        <input type="text" class="form-control" id="clientEnquiry" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientPhone" class="form-label">Phone No.</label>
+                      <input type="phone" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isClient">
+                      <label class="form-check-label" for="isClient">I want to work on a project with you.</label>
+                    </div>
+                    <div class="buttons btn-sm"><button type="submit">Submit</button></div>
+                  </form>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
